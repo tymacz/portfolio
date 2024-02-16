@@ -1,0 +1,15 @@
+
+#content{
+    padding: 2%;
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-right: 1px solid white ;
+}
+
+p{
+    color: white;
+}
+

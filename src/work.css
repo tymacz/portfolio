@@ -1,0 +1,91 @@
+#work{
+    width: 100vw;
+    height: 80vh;
+}
+
+#door{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+#maze{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+#iot{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+#find{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+#text-door{
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+}
+
+#text-find{
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+}
+
+#text-maze{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 5vw;
+}
+
+#text-iot{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 5vw;
+}
+
+p{
+    font-size: medium;
+}
+
+h1 {
+    color: white;
+}
+h2{
+    color: white;
+}
+h3 {
+    color: white;
+}
+h4 {
+    color: white;
+}
+
+#other h1{
+    text-align: center;
+}
+
+#container{
+    margin-top: 3vh;
+    margin-left: 3vw;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 5px;
+}
